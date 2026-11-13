@@ -1,0 +1,60 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Python environments and generated files
+venv/
+.venv/
+**/venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Frontend dependencies and builds
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+.vite/
+
+# Runtime uploads, generated results and private diagnostics
+backend/uploads/
+backend/vton_outputs/
+**/uploads/
+**/vton_outputs/
+**/*debug*/
+*.log
+
+# Local model weights and large binary assets
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.task
+*.part
+
+# Local datasets and generated image indexes
+backend/datasets/
+**/datasets/
+*.csv
+*.parquet
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+*.swp
+*.swo
+.git-backup/
+*.keras

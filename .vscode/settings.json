@@ -1,0 +1,4 @@
+{
+    "python.terminal.useEnvFile": true,
+    "cmake.sourceDirectory": "C:/Users/bennu/OneDrive/Desktop/DL_CaseStudy/clothes-virtual-try-on/openpose"
+}
